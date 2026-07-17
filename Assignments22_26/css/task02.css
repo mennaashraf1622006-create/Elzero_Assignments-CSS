@@ -1,0 +1,19 @@
+.one{
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+}
+.two{
+    font-family: "cairo", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+.three{
+    font-family: "jomhuria", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
