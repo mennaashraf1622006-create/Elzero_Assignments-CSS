@@ -1,0 +1,13 @@
+a{
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: green;
+    border-bottom: 10px solid rgb(13, 39, 13);
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    padding: 20px 40px;
+    font-weight: bold;
+}

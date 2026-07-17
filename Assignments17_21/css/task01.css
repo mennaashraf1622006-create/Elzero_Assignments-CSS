@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+    text-shadow: -4px 4px 0px red,
+                 4px 4px 0px blue,
+                 0px 4px 0px purple;
+
+}
