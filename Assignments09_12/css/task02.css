@@ -1,0 +1,16 @@
+div{
+    width: 400px;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 20px;
+}
+.element-1 {
+  border-left: 5px solid #e91e63;
+}
+.element-2 {
+    border-left: 5px solid #e91e63;
+  visibility: hidden;
+}
+.element-3 {
+  border-left: 5px solid #009688;
+}
