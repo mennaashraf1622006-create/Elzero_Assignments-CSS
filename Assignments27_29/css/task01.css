@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.father {   
+    background-color: #EEE;
+    /* width: 1000px; */
+}
+.father div {
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    float: left;
+}
+.full_width {
+    margin: 15px;
+    width: calc(100% - 30px);
+}
+.one_over_three {
+    width: calc((100% - 60px) / 3);
+    margin-left: 15px;
+}
+.one_over_two {
+    width: calc((100% - 45px) / 2);
+    margin-left: 15px;    
+}
+.one_over_four {
+    width: calc((100% - 75px) / 4);
+    margin-left: 15px;    
+}
