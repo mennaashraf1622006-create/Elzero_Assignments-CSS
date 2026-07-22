@@ -1,0 +1,101 @@
+* {
+     box-sizing: border-box;
+     margin: auto;
+}
+ .parenrt{
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.basic_bg{
+    background-color: #eee;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+
+}
+.basic{
+    background-color: rgb(41, 172, 242);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.free{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: black;
+    background-color: #ded8d8;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    text-align: center;
+    padding: 80px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.pro_bg{
+    background-color: #eee;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+.pro{
+    background-color: rgb(41, 172, 242);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.p30{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: black;
+    background-color: #ded8d8;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    text-align: center;
+    padding: 80px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.or{
+    height: 300px;
+    width: 1px;
+    background-color: #03a9f4;
+    display: inline-block;
+    margin: 18px;
+    position: relative;
+    top: 19px;
+    z-index: 1;
+}
+.or::before{
+    content: "Or";
+    color: white;
+    background-color: #03a9f4;
+    width: 20px;
+    text-align: center;
+    padding: 6px 2.5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 140px;
+    left: -12px;
+}
