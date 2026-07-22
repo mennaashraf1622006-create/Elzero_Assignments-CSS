@@ -1,0 +1,23 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  margin:20px auto;
+  padding: 20px;
+  background: #eee;
+  position: relative;
+}
+
+div::before {
+  content: "1";
+  padding: 15px 10px;
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  bottom: 10px;
+  background: red;
+  color: white;
+  text-align: center;
+
+}
+
+

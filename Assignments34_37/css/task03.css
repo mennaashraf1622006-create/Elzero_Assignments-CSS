@@ -1,0 +1,30 @@
+p {
+    background-color: #EEE;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    position: relative;
+    left: calc((100% - 400px) / 2);
+}
+p::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #e91e63 transparent transparent;
+    position: absolute;
+    left: -20px;
+}
+
+p::after {
+    content: "";
+    width: 5px;
+    height: 100%;
+    background-color: #e91e63;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+
