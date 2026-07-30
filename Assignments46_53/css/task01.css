@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 75px auto;
+    color: orangered;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 5px 0 #ff5722, -5px 0 #03a9f4;
+    justify-content: center; 
+    align-items: center;            
+}
