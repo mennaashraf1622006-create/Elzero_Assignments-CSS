@@ -1,0 +1,49 @@
+:root {
+    --colorone: #ff5722;
+    --colortwo: #FFF;
+}
+
+h1 {
+    width: 150px;
+    height: 75px;
+    background-color: var(--colorone);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    color: var(--colortwo);
+    font-size: 40px;
+    position: relative;
+}
+
+h1::before {
+    content: '';
+    background-color: var(--colorone);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1::before {
+    content: '';
+    transform: skew(10deg , 10deg);
+}
+
+h1::after {
+    content: '';
+    background-color: var(--colorone);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1::after {
+    content: '';
+    transform: skew(-10deg, -10deg);
+}
