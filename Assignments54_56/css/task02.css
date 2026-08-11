@@ -1,0 +1,26 @@
+div{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+    position: relative;
+}
+   
+input {
+    border: none;
+    outline: none;
+    width: 595px;
+    background-color: #EEE;
+    caret-color: #f44336;
+    font-size: 20px;
+}
+div::after{
+    content: "";
+    background-image: linear-gradient(to right, #f44336 50%, #20a296 50%);
+    width: 100%;
+    height: 4px;
+     display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
