@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 350px;
+    width: 200px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 350px 350px;
+    gap: 15px 15px;
+}
+
+.e div,
+.l div {
+    background-color: #323234;
+}
+
+.e,
+.l {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(7, 50px);
+    position: relative;
+}
+
+.one {
+    grid-area: 1 / 1 / 2 / span 4;
+}
+
+.two {
+    grid-area: 2 / 1 / span 2 / 2;
+}
+
+.three {
+    grid-area: 4 / 1 / 5 / span 4;
+}
+
+.four {
+    grid-area: 5 / 1 / span 2 / 2;
+}
+
+.five {
+    grid-area: 7 / 1 / 8 / span 4;
+}
+
+.first {
+    grid-area: 1 / 1 / span 6 / 2;
+}
+
+.second {
+    grid-area: 7 / 1 / 8 / span 4;
+}
+
+.square1 {
+    background-color: #fea604 !important;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    animation-name: first;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+
+.square2 {
+    background-color: #fea604 !important;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+    left: 160px;
+    animation-name: second;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes first {
+    0% {
+        top: 10px;
+        left: 160px;
+    }
+
+    11% {
+        top: 10px;
+        left: 10px;
+    }
+
+    21% {
+        top: 160px;
+        left: 10px;
+    }
+
+    31% {
+        top: 160px;
+        left: 160px;
+    }
+
+    41% {
+        top: 160px;
+        left: 10px;
+    }
+
+    51% {
+        top: 310px;
+        left: 10px;
+    }
+
+    61% {
+        top: 310px;
+        left: 160px;
+    }
+
+    71% {
+        top: 310px;
+        left: 10px;
+    }
+
+    81% {
+        top: 10px;
+        left: 10px;
+    }
+
+    91% {
+        top: 10px;
+        left: 160px;
+    }
+}
+
+@keyframes second {
+    0% {
+        opacity: 0;
+        top: 310px;
+        left: 160px;
+    }
+
+    1% {
+        opacity: 100%;
+    }
+
+    30% {
+        top: 310px;
+        left: 10px;
+    }
+
+    60% {
+        top: 10px;
+        left: 10px;
+        opacity: 100%;
+    }
+
+    100% {
+        top: 10px;
+        left: 10px;
+        opacity: 0;
+    }
+}
